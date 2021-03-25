@@ -1,0 +1,109 @@
+@keyframes sumir {
+  0% {
+    transform: scaleX(1);
+    transform-origin: left;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(0);
+    transform-origin: left;
+    opacity: 0;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+    opacity: 0;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: left;
+    opacity: 1;
+  }
+}
+
+@keyframes padding-bottom-add {
+  0% {
+    color: white;
+  }
+  100% {
+    color: rgb(249, 192, 1);
+  }
+}
+@keyframes padding-bottom-rmv {
+  0% {
+    color: rgb(249, 192, 1);
+  }
+  100% {
+    color: white;
+  }
+}
+@keyframes margin-left-add {
+  0% {
+    margin-top: 30px;
+    margin-left: 10px!important;
+    transform: scale(2, 1.5)!important;
+  }
+  100% {
+    margin-top: 0px;
+    margin-left: 15px!important;
+    transform: scale(1)!important;
+  }
+}
+@keyframes margin-left-rmv {
+  0% {
+    margin-top: 0px;
+    margin-left: 15px;
+    transform: scale(1);
+  }
+  100% {
+    margin-top: 30px;
+    margin-left: 10px;
+    transform: scale(2, 1.5);
+  }
+}
+
+@keyframes abre-menu-drop{
+  0% {
+    transform: scale(0,0);
+    transform-origin: top left;
+  }
+  100% {
+    transform: scale(1,1);
+    transform-origin:  top left;
+  }
+}
+
+@keyframes fecha-menu-drop{
+  0% {
+    transform: scale(1,1);
+    transform-origin: top left;
+    opacity: 1;
+  }
+  90%{
+   
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0,0);
+    transform-origin:  top left;
+  }
+}
+@keyframes tg-ativar{
+  from{
+    float: left;
+  }
+  to{
+    float: right;
+  }
+}
+@keyframes tg-desativar{
+  from{
+    float: right;
+  }
+  to{
+    float: left;
+  }
+}

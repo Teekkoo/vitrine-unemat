@@ -1,0 +1,251 @@
+
+@media (max-width:800px) {  
+  * {
+    font-size: 1.2rem;
+  }
+  .desktop {
+    display: none;
+  }
+
+  .baner-inicio {
+    width: 100vw;
+    height: 100vh;
+
+  }
+
+  .container {
+    padding: 10px;
+  }
+  .menu-icones{
+    display: none;
+  }
+  .menu-icones-mobile{
+    display: block;
+  }
+  header {
+    padding-top: 0;
+    min-height: 13vh;
+  }
+
+  .navbar-principal {
+    display: flex;
+    width: 83vw;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  .search-bar {
+    border: 1px;
+    border-radius: 15px;
+    padding: 2px 25px 2px 5px;
+    width: 40vw;
+    font-size: 0.5rem;
+  }
+
+  .titulo-prin{
+    font-family: Rubik-Bold;
+    color: var(--cor-1);
+    font-size: 2.5rem;
+  }
+  
+  .titulo-secun{
+    font-family: Rubik-Bold;
+    color: var(--cor-1);
+    font-size: 2rem;
+  }
+  
+  .subtitulo-prin{
+    font-family: Rubik-Bold;
+    color: var(--cor-1);
+    font-size: 1.7rem;
+  }
+  
+  .subtitulo-secun{
+    font-family: Rubik-Light;
+    color: var(--cor-1);
+    font-size: 1.7rem;
+  }
+  
+  .text-prin{
+    font-family: Rubik-Regular;
+    color: var(--cor-1);
+    font-size: 1.1rem;
+  }
+
+  header .logo-vitrine{
+    width: 30vw;
+    min-width: 100px;
+  
+  }
+
+  .section-vitrine{
+    position: relative;
+    padding-bottom: 5vw;
+    margin: 0;
+}
+
+  .description-vitrine{
+    margin-top: 15vw;
+    max-width: 100%;
+  }
+
+  .img-vitrine-square{
+    position: absolute;
+    right: 10%;
+    top: 80%;
+    width: 50vw;
+    max-width: 250px;
+    z-index: 0;
+}
+
+.img-vitrine-circles{
+    position: absolute;
+    left: 8%;
+    top: 0%;
+    max-width: 200px;
+    width: 60vw;
+    z-index: 0;
+}
+
+
+  .order-desk{
+    order: 1;
+  }
+  
+  .order-moba{
+    order: 0;
+  }
+
+  .text-categoria{
+    color: var(--cor-2); 
+    font-size: 0.8rem; 
+}
+
+  /* cards portifolio */
+.group-portifolio{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.item-portifolio{
+    width: 20vw;
+    min-width: 300px;
+    margin: 30px 10px;
+    -webkit-box-shadow: -1px -1px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 14px 0px rgba(0,0,0,0.75);
+}
+
+
+.info-busca{
+  color: var(--cor-2);
+  font-size: 5vw;
+  margin-top: 5px;
+  padding: 10px 0px 10px 40px;
+  white-space: normal;
+}
+
+.bg-section-mobile{
+  background-image: url("../img/background-categorias.svg");
+  width: 100%;
+  height: 60vh;
+  background-repeat: no-repeat;
+}
+
+.bg-section-mobile-max{
+  background-image: url("../img/background-categorias.svg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+  .container-footer {
+    position: initial;
+    flex-wrap: wrap;
+    background: var(--cor-1);
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+
+  }
+  footer {
+    position: initial;
+    height: max-content;
+    margin-top: 15vh;
+  }
+
+  footer p{
+    color: white;
+    text-align: center;
+  }
+
+  .bg-footer {
+    bottom: initial;
+    margin-top: -9vh;
+    z-index: -1;
+  }
+
+  .desenvolvido {
+    margin: 10px auto;
+    margin-top: 20px;
+    width: 70%;
+  }
+
+  .container-footer .fale-conosco .icon img{
+    width: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (min-width:1367px) {
+  * {
+    font-size: 1.1vw;
+  }
+
+  header .logo-vitrine{
+    width: 13vw;
+    min-width: 100px;
+    margin-right: 20px;
+  
+  }
+  
+  header .logo-unemat{
+    width: 7vw;
+    min-width: 30px;
+  
+  }
+
+
+  .img-vitrine-square{
+    position: absolute;
+    right: 10vw;
+    top: 10vh;
+    width: 15vw;
+    z-index: -2;
+  }
+
+  .img-vitrine-circles{
+    position: absolute;
+    left: 8vw;
+    top: 0vh;
+    width: vw;
+    z-index: -1;
+  }
+
+  .img-busca-square{
+    position: absolute;
+    left: 7vw;
+    top: 10%;
+    z-index: -1;
+    width: 18vw;
+}
+
+.img-busca-circles{
+    position: absolute;
+    right: 7vw;
+    top: 10%;
+    z-index: -1;
+    width: 18vw;
+}
+} 

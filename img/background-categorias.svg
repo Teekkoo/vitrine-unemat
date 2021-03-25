@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1254.2351"
+   height="472.58142"
+   viewBox="0 0 1254.2351 472.58141"
+   version="1.1"
+   id="svg946"
+   sodipodi:docname="background-categorias.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata952">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs950" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview948"
+     showgrid="false"
+     inkscape:zoom="0.5015009"
+     inkscape:cx="468.83652"
+     inkscape:cy="268.30075"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg946" />
+  <path
+     id="That_s_enough_"
+     data-name="That's enough!"
+     d="M -28.60477,243.69819 -17.230909,82.337305 c 0,0 -21.524987,-36.809127 2.414643,-33.178315 C 47.890326,58.447295 111.25451,62.563484 174.63578,61.465949 305.49703,59.206941 376.86661,29.964721 533.00604,27.269392 689.14547,24.574064 833.3036,67.305492 1057.0257,61.466 1280.7479,55.626508 1296.9169,-55.385286 1296.9169,-55.385286 l -13.0392,264.523026 21.0162,243.87065 c 0,0 -178.8926,34.72836 -386.97604,-6.66087 C 868.3137,436.48015 769.70889,400.70291 623.36822,404.69131 477.02755,408.6797 411.06697,420.88633 316.53784,442.70725 84.28042,496.32007 -36.71433,386.89564 -36.71433,386.89564 Z"
+     inkscape:connector-curvature="0"
+     style="fill:#dbe3e3"
+     sodipodi:nodetypes="ccccssccccsccc" />
+</svg>

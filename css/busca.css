@@ -1,0 +1,72 @@
+.busca-container{
+  display: block;
+  margin: 10px 0px;
+
+}
+
+.busca-container .busca-item{
+  color:white;
+  background-color: #354E6B;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  margin: 10px 0px;
+}
+
+.busca-item p{
+  font-size: 1.5rem;
+  font-family: Rubik-Regular;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.busca-container .busca-item img{
+  height: 80%;
+  width: auto;
+  max-height: 3rem;
+}
+
+.btn-cadastro{
+  max-width: 200px;
+  display: block;
+  float:right;
+  margin-bottom: 20px;
+}
+
+.btn-voltar{
+  display: inherit;
+  font-size: 1rem;
+  font-family: Rubik-Light;
+  color: rgb(24,52,86);
+  border:none;
+  padding: 5px 10px;
+}
+.user-info-footer{
+  display: flex;
+  min-height: 43px;
+}
+.user-info-footer .icones{
+  padding: 5px 20px;
+  display: flex;
+  background-color: rgb(24,52,86);
+  width: -webkit-fill-available;
+}
+.insta-icon{
+  width: 16px;
+  background-image:url('../img/instagram-2016.svg');
+  height: 16px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto 0px;
+}
+.btn-voltar span{
+  height: 100%;
+}
+.btn-voltar span img{
+  height: 100%;
+}
+.btn-voltar p{
+  font-family: Rubik-Light;
+  margin:auto 0px;
+}

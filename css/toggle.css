@@ -1,0 +1,172 @@
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .sl-face {
+  background-color: #4464af;
+}
+input:checked + .sl-insta{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+input:checked + .sl-twit{
+  background-color: #7cc6f8;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #4464af;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.temp0{
+  animation: temp0 0s 0s ease-in-out infinite alternate;
+  width: 100vw;
+  /* margin-left: -15vw; */
+}
+
+.temp1{
+  animation: temp1 2s 0s ease-in-out infinite alternate;
+  width: 100vw;
+  /* margin-left: -15vw; */
+}
+.temp2{
+  /* margin-left: -15vw; */
+  width: 100vw;
+  animation: temp2 3s 0s infinite alternate;
+}
+.temp3{
+  /* margin-left: -20vw; */
+  width: 100vw;
+  animation: temp3 4s 0s infinite alternate;
+}
+.temp4{
+  animation: temp4 5s 0s infinite alternate;
+}
+.temp5{
+  animation: temp5 3s 0s ease-in-out infinite alternate;
+}
+.temp6{
+  animation: temp6 2.5s 0s ease-in-out infinite alternate;
+  transition-timing-function: linear;
+}
+.header-temp-1{
+  animation: temp1 3s 0s ease-in-out infinite alternate;
+  /* margin-left: -15vw; */
+}
+
+.circle1{
+  animation: circle1 15s 0s ease-in-out infinite normal;
+}
+
+.square1{
+  animation: square1 10s 0s ease-in-out infinite normal;
+}
+
+@keyframes temp0{
+  to{
+    transform: translateY(50px);
+  }
+  from{
+    transform: translateY(50px);
+  }
+}
+
+@keyframes temp1{
+  from{
+    transform: translateY(12px);
+  }
+}
+@keyframes temp2{
+  from{
+    transform: translateY(-20px);
+  }
+}
+@keyframes temp3{
+  from{
+    transform: translateY(15px);
+  }
+}
+@keyframes temp4{
+  from{
+    transform: translateY(-15px);
+  }
+}
+@keyframes temp5{
+  from{
+    transform: translateY(-12px);
+  }
+}
+@keyframes temp6{
+  from{
+    transform: translateY(-35px);
+  }
+}
+
+@keyframes circle1{
+  to{
+    transform: rotate(0deg);
+  }
+  from{
+    transform: rotate(360deg);
+
+  }
+}
+
+@keyframes square1{
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.2);
+  }
+  100%{
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,135 @@
+:root{
+  --cor-1: #183456;
+  --cor-2: #fff
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Rubik-Regular;
+  font-size: 1.1vw;
+}
+body {
+  max-width: 100vw !important;
+  width: 100vw !important;
+  /* overflow-x:hidden; */
+}
+body::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0; padding: 0;
+}
+strong {
+  display: block;
+  font-family: Rubik-Medium;
+}
+
+b{
+  font-family: Rubik-Bold;
+}
+.container {
+  max-width: 100vw;
+  margin: 0px auto;
+  padding: 20px 10vw;
+
+  /* background-color: red; */
+}
+
+
+li,ul{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.d-flex {
+  display: flex;
+}
+.float-r {
+  float: right;
+}
+.pad-top-10{
+  padding-top:10vh!important;
+}
+.mg-1{
+  margin: 2vh;
+}
+
+
+.titulo-prin{
+  font-family: Rubik-Bold;
+  color: var(--cor-1);
+  font-size: 4.2rem;
+}
+
+.titulo-secun{
+  font-family: Rubik-Bold;
+  color: var(--cor-1);
+  font-size: 3.2rem;
+}
+
+.subtitulo-prin{
+  font-family: Rubik-Bold;
+  color: var(--cor-1);
+  font-size: 2.9rem;
+}
+
+.subtitulo-secun{
+  font-family: Rubik-Light;
+  color: var(--cor-1);
+  font-size: 2.9rem;
+}
+
+.text-prin{
+  font-family: Rubik-Regular;
+  color: var(--cor-1);
+  font-size: 1.4rem;
+}
+
+.info-principal-title {
+  color: var(--cor-1);
+  font-family: Rubik-Bold;
+  font-size: 2.5rem;
+}
+
+.info-subtitle {
+  color: var(--cor-1);
+  font-family: Rubik-Bold;
+  font-size: 1.5rem;
+ margin-top: 40px;
+}
+
+.font-size{
+  font-size: 2rem;
+}
+
+.d-flex {
+  display: flex;
+}
+.fd-col{
+  flex-direction: column;
+}
+.j-end{
+  justify-content: flex-end;
+}
+.j-cent{
+  justify-content: center;
+}
+.txt-cent{
+	text-align: center;
+}
+.txt-justify{
+  text-align: justify;
+}
