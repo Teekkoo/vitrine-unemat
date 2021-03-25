@@ -199,6 +199,13 @@
   /* sub-pagina */
   .section-info{
     position: relative;
+    padding: 50px 13vw;
+    display: flex;
+    flex-direction: column;
+}
+
+  .section-info{
+    position: relative;
     padding: 50px 5vw;
     display: flex;
     flex-direction: row;
