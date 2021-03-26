@@ -115,6 +115,10 @@ header .logo-unemat img {
   display: none;
 }
 
+.pr-10{
+  padding-right: 15px;
+}
+
 .area-pesq{
   display: flex;
   flex-direction: column;
