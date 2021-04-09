@@ -227,3 +227,16 @@
     margin: 0 auto;
     order: 2;
 }
+
+
+/* pagina card-noticias */
+.thumb-noticias img{
+    width: 100%;
+    height: auto;
+}
+
+.thumb-noticias{
+    float: left;
+    max-width: 40%;
+    margin-right: 10px;
+}

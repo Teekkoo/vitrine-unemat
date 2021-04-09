@@ -205,7 +205,10 @@ header .logo-unemat img {
   top: 5px;
   left: 5px;
   position: absolute;
-  z-index: 1;
+}
+
+.opcao-list .barra-navbar{
+	display: none;
 }
 
 .close-dropdown{
@@ -214,16 +217,14 @@ header .logo-unemat img {
   position: fixed;
   height: 100vh;
   width: 100vw;
-  background-color: var(--cor-1) ;
+  background-color :var(--cor-1) ;
   overflow: hidden;
   justify-content: center;
-  z-index: 2;
-  border: solid .5pxvar(--cor-1) ;
-  
-  
+  z-index: 5;
+  border: solid .5px var(--cor-1) ;
 }
 
-.elements-list{
+.opcao-list .navbar-item{
   margin: 30px 0;
   text-align: center;
 }
@@ -234,18 +235,21 @@ header .logo-unemat img {
   margin: auto;
 }
 
-
 .menu-list{
   display: flex;
   align-self: center;
 }
 
+
 .item-menu-color{
   color: white;
 }
 
-.item-menu-drop a{
+.opcao-list .navbar-item a{
   font-size: 0.8rem;
+	color: white;
+	text-decoration: none;
+	font-family: Rubik-Regular;
 }
 
 .bg-dropdown{

@@ -38,7 +38,7 @@
   <?php wp_footer(); ?>
   <script src="<?php bloginfo('template_url'); ?>/js/nav.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/search-buton.js"></script>
-  <!-- <script src="<?php// bloginfo('template_url'); ?>/js/menu-dropdown.js"></script> -->
+  <script src="<?php bloginfo('template_url'); ?>/js/menu-dropdown.js"></script>
   </body>
 
   </html>

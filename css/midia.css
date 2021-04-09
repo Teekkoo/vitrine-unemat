@@ -199,7 +199,7 @@
   /* sub-pagina */
   .section-info{
     position: relative;
-    padding: 50px 13vw;
+    padding: 50px 5vw;
     display: flex;
     flex-direction: column;
 }
@@ -208,7 +208,6 @@
 
   .section-info{
     position: relative;
-    padding: 50px 5vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -229,6 +228,12 @@
     order: 1;
     padding: 0 0px;
   }
+
+  .thumb-noticias{
+    float: left;
+    max-width: max(100%, 400px);
+    margin-right:1vw;
+}
 }
 
 

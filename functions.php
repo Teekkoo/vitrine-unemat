@@ -64,14 +64,26 @@
                 'public' => true,
                 'has_archive' => true,
                 'show_in_rest' => true,
-                'supports' => array('title', 'editor',''),
+                'supports' => array('title', 'editor'),
             )
         );
+        // cria post's personalzados para paginas de noticias 
+        register_post_type('events',
+        array(
+            'labels' => array(
+                'name' => __('eventos'),
+                'singular_name' => __('eventos')
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'show_in_rest' => true,
+            'supports' => array('title', 'editor','thumbnail'),
+        ));
  }
       add_action( 'init', 'create_post_type' );
 
-      add_theme_support( 'post-thumbnails');    
-       set_post_thumbnail_size(300, 250, true);
+  add_theme_support( 'post-thumbnails');    
+   set_post_thumbnail_size(600, 500, true);
 
        require get_template_directory().'/inc/custom.php';
        
