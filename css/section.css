@@ -135,7 +135,7 @@
 /* pagina de informação (sub-pagina) */
 .section-info{
     position: relative;
-    padding: 50px 13vw;
+    padding-top: 50px;
     display: flex;
     flex-direction: row;
 }
