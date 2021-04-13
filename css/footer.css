@@ -25,13 +25,13 @@ footer p {
 }
 
 .logo-footer img {
-  max-width: 110px;
-  width: 5vw;
+  max-width: initial;
+  width: 7vw;
 	margin:0px auto;
 }
 .logo-footer .risc{
 	max-width: initial;
-	width: 8vw;
+	width: 7vw;
 	margin: 5px auto;
 }
 .desenvolvido {

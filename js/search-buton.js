@@ -1,65 +1,65 @@
 
 
-var element = document.getElementById('pesquisa');
-if (element.addEventListener) {
-    element.addEventListener("submit", function(evt) {
-        evt.preventDefault();
+// var element = document.getElementById('pesquisa');
+// if (element.addEventListener) {
+//     element.addEventListener("submit", function(evt) {
+//         evt.preventDefault();
     
-    }, true);
-}
-else {
-    element.attachEvent('onsubmit', function(evt){
-        evt.preventDefault();
+//     }, true);
+// }
+// else {
+//     element.attachEvent('onsubmit', function(evt){
+//         evt.preventDefault();
        
-    });
-}
+//     });
+// }
 
 
 
-function FuncPesquisaAtv(elClass, elClassOp, elClass1) {
-    open = document.getElementById(elClass);
-    pesq = document.getElementById(elClassOp);
-    close = document.getElementById(elClass1);
-    if(pesq.classList.contains('d-none')){
-        open.classList.add('d-none');
-        pesq.classList.remove('d-none');
-        pesq.style.animationName = "aparecer";
-        pesq.style.animationDuration = '.5s';
-        setTimeout(() => {
-            pesq.style.animationName = "";
+// function FuncPesquisaAtv(elClass, elClassOp, elClass1) {
+//     open = document.getElementById(elClass);
+//     pesq = document.getElementById(elClassOp);
+//     close = document.getElementById(elClass1);
+//     if(pesq.classList.contains('d-none')){
+//         open.classList.add('d-none');
+//         pesq.classList.remove('d-none');
+//         pesq.style.animationName = "aparecer";
+//         pesq.style.animationDuration = '.5s';
+//         setTimeout(() => {
+//             pesq.style.animationName = "";
 
-        },500);
-    }else{
-        pesq.style.animationName = "sumir";
-        pesq.style.animationDuration = '.6s';
-        setTimeout(() => {
-            pesq.style.animationName = "";
-            pesq.classList.add('d-none');
-            open.classList.remove('d-none');
+//         },500);
+//     }else{
+//         pesq.style.animationName = "sumir";
+//         pesq.style.animationDuration = '.6s';
+//         setTimeout(() => {
+//             pesq.style.animationName = "";
+//             pesq.classList.add('d-none');
+//             open.classList.remove('d-none');
 
-        },200); 
-    }
+//         },200); 
+//     }
     
-}
+// }
 
-opensearch('pesquisa-img', 'form-pesq','pesquisa');
-opensearch('pesquisa-servico-img', 'form-pesq-servico','pesquisa-servico');
-opensearch('pesquisa-produto-img', 'form-pesq-produto','pesquisa-produto');
+// opensearch('pesquisa-img', 'form-pesq','pesquisa');
+// opensearch('pesquisa-servico-img', 'form-pesq-servico','pesquisa-servico');
+// opensearch('pesquisa-produto-img', 'form-pesq-produto','pesquisa-produto');
 
-function opensearch(elClass, elClassOp, elClass1) {
-    let el = document.getElementById(elClass);
-    if(el!=undefined){
-    el.addEventListener('click', () => {
-        FuncPesquisaAtv(elClass, elClassOp);
+// function opensearch(elClass, elClassOp, elClass1) {
+//     let el = document.getElementById(elClass);
+//     if(el!=undefined){
+//     el.addEventListener('click', () => {
+//         FuncPesquisaAtv(elClass, elClassOp);
 
-    });
-    let al = document.getElementById(elClass1);
-    al.addEventListener('click', () => {
-        FuncPesquisaAtv(elClass, elClassOp);
-        dropLoad(elClassOp);
-    });
-}
-}
+//     });
+//     let al = document.getElementById(elClass1);
+//     al.addEventListener('click', () => {
+//         FuncPesquisaAtv(elClass, elClassOp);
+//         dropLoad(elClassOp);
+//     });
+// }
+// }
 
 function faztroca(urlA, urlN, idbrasao){
     img = document.getElementById(idbrasao);

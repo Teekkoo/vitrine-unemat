@@ -230,6 +230,32 @@
 
 
 /* pagina card-noticias */
+.my-content .info-txt {
+	padding: 0;
+}
+
+.content-news{
+	width: 100%;
+	padding:0px;
+	margin: 0 auto;
+	order: 2;
+}
+
+.content-news p, .info-content p{
+	color: black;
+	font-size: 1.1rem;
+	line-height: 1.9rem;
+	word-spacing: 7px;
+}
+/* .info-content h4{
+	color: black;
+} */
+.content-news .news-date{
+	margin: 1vh 0px;
+	color: rgb(99, 97, 97);
+	/* font-weight: bold; */
+}
+
 .thumb-noticias img{
     width: 100%;
     height: auto;
@@ -237,6 +263,6 @@
 
 .thumb-noticias{
     float: left;
-    max-width: 40%;
+    width: 20vw;
     margin-right: 10px;
 }

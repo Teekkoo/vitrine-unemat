@@ -22,23 +22,6 @@
                 <img id="brasao" src="<?php bloginfo('template_url');?>/img/brasao-unemat.svg" alt=""
                     onmouseover="trocaImage()" />
             </div>
-            <div>
-                <div class="search-forms">
-                    <div class="pesquisa-img">
-                        <img class="search-button-img" src="<?php bloginfo('template_url');?>/img/lupa-branca.svg"
-                            id="pesquisa-img" alt="" srcset="" />
-                    </div>
-                    <form class="pesquisa d-none" id="form-pesq" action="" method="post">
-                        <div class="barra-pesquisa">
-                            <input type="search" class="search-bar" />
-                            <button class="search-button" type="submit" value="" id="pesquisa">
-                                <img class="search-button-img" src="<?php bloginfo('template_url');?>/img/lupa-azul.svg"
-                                    alt="" />
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
         </div>
     </div>
     <img class="bg-header-wave " src="<?php bloginfo('template_url');?>/img/background-header-2.svg" />
@@ -71,10 +54,5 @@
       </div>
       <img class="bg-dropdown" src="<?php bloginfo('template_url'); ?>/img/background-footer.svg" alt="">
     </div>
-    <nav class="nav-mobile navbar-principal">
-      <div class="logo-Aginov">
-        <img src="<?php bloginfo('template_url'); ?>/img/logo-aginov-mobi.svg" alt="" />
-      </div>
-    </nav>
   </div>
 </header>

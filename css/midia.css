@@ -1,3 +1,230 @@
+@media (max-width:800px) {  
+  * {
+    font-size: 1.2rem;
+  }
+  .desktop {
+    display: none;
+  }
+
+  .baner-inicio {
+    width: 100vw;
+    height: 100vh;
+
+  }
+
+  .container {
+    padding: 10px;
+  }
+  .menu-icones{
+    display: none;
+  }
+  .menu-icones-mobile{
+    display: block;
+  }
+  header {
+    padding-top: 0;
+    min-height: 13vh;
+  }
+
+  .navbar-principal {
+    display: flex;
+    width: 83vw;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  .search-bar {
+    border: 1px;
+    border-radius: 15px;
+    padding: 2px 25px 2px 5px;
+    width: 40vw;
+    font-size: 0.5rem;
+  }
+
+  .titulo-prin{
+    font-family: Rubik-Bold;
+    color: var(--cor-1);
+    font-size: 2.5rem;
+  }
+  
+  .titulo-secun{
+    font-family: Rubik-Bold;
+    color: var(--cor-1);
+    font-size: 2rem;
+  }
+  
+  .subtitulo-prin{
+    font-family: Rubik-Bold;
+    color: var(--cor-1);
+    font-size: 1.7rem;
+  }
+  
+  .subtitulo-secun{
+    font-family: Rubik-Light;
+    color: var(--cor-1);
+    font-size: 1.7rem;
+  }
+  
+  .text-prin{
+    font-family: Rubik-Regular;
+    color: var(--cor-1);
+    font-size: 1.1rem;
+  }
+
+  header .logo-vitrine{
+    width: 30vw;
+    min-width: 100px;
+  
+  }
+
+  .section-vitrine{
+    position: relative;
+    padding-bottom: 5vw;
+    margin: 0;
+  }
+
+  .description-vitrine{
+    margin-top: 15vw;
+    max-width: 100%;
+  }
+
+  .img-vitrine-square{
+    position: absolute;
+    right: 10%;
+    top: 80%;
+    width: 50vw;
+    max-width: 250px;
+    z-index: 0;
+  }
+
+.img-vitrine-circles{
+    position: absolute;
+    left: 8%;
+    top: 0%;
+    max-width: 200px;
+    width: 60vw;
+    z-index: 0;
+  }
+
+
+  .order-desk{
+    order: 1;
+  }
+  
+  .order-moba{
+    order: 0;
+  }
+
+  .text-categoria{
+    color: var(--cor-2); 
+    font-size: 0.8rem; 
+}
+
+    /* cards portifolio */
+  .group-portifolio{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .item-portifolio{
+      width: 20vw;
+      min-width: 300px;
+      margin: 30px 10px;
+      -webkit-box-shadow: -1px -1px 14px 0px rgba(0,0,0,0.75);
+      box-shadow: -1px -1px 14px 0px rgba(0,0,0,0.75);
+  }
+
+
+  .info-busca{
+    color: var(--cor-2);
+    font-size: 5vw;
+    margin-top: 5px;
+    padding: 10px 0px 10px 40px;
+    white-space: normal;
+  }
+
+  .bg-section-mobile{
+    background-image: url("../img/background-categorias.svg");
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+  }
+
+  .bg-section-mobile-max{
+    background-image: url("../img/background-categorias.svg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .container-footer {
+    position: initial;
+    flex-wrap: wrap;
+    background: var(--cor-1);
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+
+  }
+  footer {
+    position: initial;
+    height: max-content;
+    margin-top: 15vh;
+  }
+
+  footer p{
+    color: white;
+    text-align: center;
+  }
+
+  .bg-footer {
+    bottom: initial;
+    margin-top: -9vh;
+    z-index: -1;
+  }
+
+  .desenvolvido {
+    margin: 10px auto;
+    margin-top: 20px;
+    width: 70%;
+  }
+
+  .container-footer .fale-conosco .icon img{
+    width: 30px;
+    margin-bottom: 20px;
+  }
+
+  /* sub-pagina */
+  .section-info{
+    position: relative;
+    padding: 50px 5vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+    max-width: 100%;
+    order: 2;  
+  }
+
+  .info-content{
+    width: 100%;
+    margin: 0 auto;
+    order: 1;
+    padding: 0 0px;
+  }
+
+  .thumb-noticias{
+    float: left;
+    width: max(400px, 100%);
+    margin-right:1vw;
+  }
+}
 
 @media (max-width:800px) {  
   * {
@@ -81,7 +308,7 @@
     position: relative;
     padding-bottom: 5vw;
     margin: 0;
-}
+  }
 
   .description-vitrine{
     margin-top: 15vw;
@@ -104,8 +331,7 @@
     max-width: 200px;
     width: 60vw;
     z-index: 0;
-}
-
+  }
 
   .order-desk{
     order: 1;
@@ -118,46 +344,46 @@
   .text-categoria{
     color: var(--cor-2); 
     font-size: 0.8rem; 
-}
+  }
 
-  /* cards portifolio */
-.group-portifolio{
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  width: 100%;
-}
+    /* cards portifolio */
+  .group-portifolio{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+  }
 
-.item-portifolio{
-    width: 20vw;
-    min-width: 300px;
-    margin: 30px 10px;
-    -webkit-box-shadow: -1px -1px 14px 0px rgba(0,0,0,0.75);
-    box-shadow: -1px -1px 14px 0px rgba(0,0,0,0.75);
-}
+  .item-portifolio{
+      width: 20vw;
+      min-width: 300px;
+      margin: 30px 10px;
+      -webkit-box-shadow: -1px -1px 14px 0px rgba(0,0,0,0.75);
+      box-shadow: -1px -1px 14px 0px rgba(0,0,0,0.75);
+  }
 
 
-.info-busca{
-  color: var(--cor-2);
-  font-size: 5vw;
-  margin-top: 5px;
-  padding: 10px 0px 10px 40px;
-  white-space: normal;
-}
+  .info-busca{
+    color: var(--cor-2);
+    font-size: 5vw;
+    margin-top: 5px;
+    padding: 10px 0px 10px 40px;
+    white-space: normal;
+  }
 
-.bg-section-mobile{
-  background-image: url("../img/background-categorias.svg");
-  width: 100%;
-  height: 60vh;
-  background-repeat: no-repeat;
-}
+  .bg-section-mobile{
+    background-image: url("../img/background-categorias.svg");
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+  }
 
-.bg-section-mobile-max{
-  background-image: url("../img/background-categorias.svg");
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-}
+  .bg-section-mobile-max{
+    background-image: url("../img/background-categorias.svg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
 
   .container-footer {
     position: initial;
@@ -204,15 +430,6 @@
     flex-direction: column;
 }
 
-
-
-  .section-info{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
   .menu-info{
     width: 100%;
     display: flex;
@@ -220,7 +437,7 @@
     margin-bottom: 5vh;
     max-width: 100%;
     order: 2;  
-}
+  }
 
   .info-content{
     width: 100%;
@@ -231,9 +448,10 @@
 
   .thumb-noticias{
     float: left;
-    max-width: max(100%, 400px);
+    width: 40%;
     margin-right:1vw;
-}
+  }
+  
 }
 
 
@@ -287,4 +505,5 @@
     z-index: -1;
     width: 18vw;
 }
+
 } 
