@@ -203,7 +203,7 @@ header .logo-unemat img {
 .dropdown  .btn-drop{
   width: 30px;
   top: 5px;
-  left: 5px;
+  right: 5px;
   position: absolute;
 }
 

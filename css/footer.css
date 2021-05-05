@@ -41,10 +41,10 @@ footer p {
 }
 
 .icon {
-  width: 100%;
+  width: 60%;
   display: flex;
   justify-content: space-around;
-  margin-top: 10px;
+  margin: 10px auto 0;
 }
 
 .container-footer .fale-conosco .icon img{

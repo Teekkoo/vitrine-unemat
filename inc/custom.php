@@ -98,4 +98,14 @@
 
     }
     add_action('customize_register', 'customize_register');
+
+    // remove item no menu Personalizar (Customize)
+    function my_customize_register2() {     
+        global $wp_customize;
+        $wp_customize->remove_panel('nav_menus');  //Modify this line as needed  
+        $wp_customize->remove_section('static_front_page');  //Modify this line as needed  
+        $wp_customize->remove_section('custom_css');  //Modify this line as needed  
+      }
+      
+      add_action( 'customize_register', 'my_customize_register2',11 );
 ?>

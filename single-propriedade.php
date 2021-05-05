@@ -51,7 +51,7 @@ include('menu.php');
       <?php $pId=get_the_ID();?>
       <?php  endwhile; endif; wp_reset_query();?>
       <div class="buttons-list">
-      <a class="btn-menu" href="http://192.168.30.12/lorem-ipsum/">Página 1</a>
+      <a class="btn-menu" href="http://192.168.30.12/propriedade-intelectual/">Página 1</a>
          <?php
             $my_args = array(
                'post_type'  => 'page',

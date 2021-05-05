@@ -256,6 +256,12 @@
 	/* font-weight: bold; */
 }
 
+.news-autor{
+    margin: 1vh 0px;
+	color: rgb(99, 97, 97);
+    font-weight: bold;
+}
+
 .thumb-noticias img{
     width: 100%;
     height: auto;
