@@ -3,6 +3,7 @@
   function agi_title_tag(){
     add_theme_support('title-tag');
 	 add_theme_support ('post-thumbnails');
+	 add_theme_support('woocommerce' );
   }
   add_action('after_setup_theme','agi_title_tag');
 
@@ -210,5 +211,19 @@ add_submenu_page($parent_slug,$page_title,$menu_title,$capability,$menu_slug);
   add_action( 'admin_menu', 'remove_menus' );
 
 	add_action( 'customize_register', 'my_customize_register2',11 );
+
+
+
+
 require get_template_directory().'/inc/custom.php';
+
+/* Custom template tags for this theme.
+*/
+require get_template_directory() . '/inc/template-tags.php';
+		
+/**
+ * Functions which enhance the theme by hooking into WordPress.
+ */
+require get_template_directory() . '/inc/template-functions.php';
+
 ?>
