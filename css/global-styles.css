@@ -53,6 +53,7 @@ li,ul{
 a {
   text-decoration: none;
   cursor: pointer;
+  color: white;
 }
 .d-flex {
   display: flex;
@@ -132,4 +133,198 @@ a {
 }
 .txt-justify{
   text-align: justify;
+}
+
+
+/**
+*Skew lines
+*/
+
+.skew-primary {
+  position: absolute;
+  width: 60%;
+  height: 30px;
+  margin: 0 -25px;
+  overflow: hidden;
+  background-color: #ffffff;
+  -webkit-transform: skew(40deg);
+  -ms-transform: skew(40deg);
+  transform: skew(40deg);
+  z-index: 2;
+}
+
+.crop-second {
+  width: 80%;
+  height: 35px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  margin: -15px 0;
+  z-index: 1;
+}
+
+.skew-second{
+  display: block;
+  height: 30px;
+  width: 100%;
+  background: #dbe3e3;
+  margin: 0px 0px 0px 33%;
+  position: absolute;
+  -webkit-transform: skew(-40deg);
+  -moz-transform: skew(-40deg);
+  -ms-transform: skew(-40deg);
+  transform: skew(-40deg);
+}
+
+.crop-third {
+  width: 80%;
+  height: 35px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  margin: -15px 0;
+}
+
+.skew-third{
+  display: block;
+  height: 30px;
+  width: 100%;
+  background: var(--cor-1);
+  margin: 0px 0px 0px 33%;
+  position: absolute;
+  -webkit-transform: skew(-40deg);
+  -moz-transform: skew(-40deg);
+  -ms-transform: skew(-40deg);
+  transform: skew(-40deg);
+}
+
+.crop-four {
+  width: 93.75%;
+  height: 35px;
+  overflow: hidden;
+  position: absolute;
+  margin: -41px 0;
+}
+
+.skew-four {
+  display: block;
+  height: 30px;
+  width: 101.25%;
+  background: var(--cor-1);
+  margin: 0px 0px 0px -2%;
+  position: absolute;
+  /* left: 0; */
+  -webkit-transform: skew(40deg);
+  -moz-transform: skew(40deg);
+  -ms-transform: skew(40deg);
+  transform: skew(40deg);
+}
+
+.crop-five {
+  width: 93.75%;
+  height: 35px;
+  overflow: hidden;
+  position: absolute;
+  margin: -15px 0;
+}
+
+.skew-five {
+  display: block;
+  height: 30px;
+  width: 75%;
+  background: var(--cor-1);
+  margin: 0px 0px 0px -2%;
+  position: absolute;
+  -webkit-transform: skew(40deg);
+  -moz-transform: skew(40deg);
+  -ms-transform: skew(40deg);
+  transform: skew(40deg);
+}
+
+.crop-six {
+  width: 93.75%;
+  height: 50px;
+  overflow: hidden;
+  position: absolute;
+  margin: -25px 0;
+}
+
+.skew-six {
+  display: block;
+  height: 50px;
+  width: 45%;
+  background: var(--cor-1);
+  margin: 0px 0px 0px -2%;
+  position: absolute;
+  -webkit-transform: skew(40deg);
+  -moz-transform: skew(40deg);
+  -ms-transform: skew(40deg);
+  transform: skew(40deg);
+}
+
+.crop-seven {
+  width: 90%;
+  height: 35px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  margin: -15px 0;
+}
+
+.skew-seven {
+  display: block;
+  height: 20px;
+  width: 100%;
+  background: var(--cor-1);
+  margin: 0px 0px 0px 33%;
+  position: absolute;
+  -webkit-transform: skew(-40deg);
+  -moz-transform: skew(-40deg);
+  -ms-transform: skew(-40deg);
+  transform: skew(-40deg);
+}
+
+.crop-eight {
+  width: 80%;
+  height: 35px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.skew-eight {
+  display: block;
+  height: 30px;
+  width: 100%;
+  background: var(--cor-1);
+  margin: 0px 0px 0px 33%;
+  position: absolute;
+  -webkit-transform: skew(-40deg);
+  -moz-transform: skew(-40deg);
+  -ms-transform: skew(-40deg);
+  transform: skew(-40deg);
+}
+
+.crop-nine {
+  width: 93.75%;
+  height: 35px;
+  overflow: hidden;
+  position: absolute;
+  margin: -15px 0;
+  z-index: 2;
+}
+
+.skew-nine {
+  display: block;
+  height: 30px;
+  width: 75%;
+  background: #dbe3e3;
+  margin: 0px 0px 0px -2%;
+  position: absolute;
+  -webkit-transform: skew(40deg);
+  -moz-transform: skew(40deg);
+  -ms-transform: skew(40deg);
+  transform: skew(40deg);
 }

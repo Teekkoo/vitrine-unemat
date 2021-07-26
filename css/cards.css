@@ -1,8 +1,8 @@
 /* cards categorias e produtos */
 .grupo-categorias{
     background-color: var(--cor-2);
-    max-width: 1100px;
-    margin: 10vw auto 2vw auto;
+   width: 80vw;
+    margin: 5vw auto 2vw auto;
     padding: 10px 10px;
     -webkit-box-shadow: 1px 2px 14px -1px rgba(112,108,112,1);
     box-shadow: 1px 2px 14px -1px rgba(112,108,112,1);
@@ -12,23 +12,60 @@
     flex-wrap: wrap;
 }
 
-.item-categoria{
-    background-color: var(--cor-1);
-    width: min(7vw, 100px);
-    height: min(7vw, 100px);
-    min-height: 70px;
-    min-width: 70px;
-    border-radius: 10px;
-    margin: 20px 2vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+/* novo categoria inicio */
+.categorias-item{
+    width: 23%;
+    height: 38vh;
+    position: relative;
+    z-index: 3;
+    margin: 10px 0 ;
+}
+.categoria-thumb{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: black;
+    overflow: hidden;
 }
 
-.text-categoria{
-    color: var(--cor-2); 
-    font-size: 1rem; 
+.categoria-thumb img{
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
+
+.categorias-item  :hover  .categoria-thumb img{
+    opacity: 0.9;
+    -moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+    transition-duration: 2s;
+}
+.content-categoria{
+    position: absolute;
+    top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.title-categoria{
+color:  var(--cor-2);
+text-align: center;
+margin: 10% 0;
+font-size: 2.1rem;
+}
+.description-categoria{
+    color:  var(--cor-2);
+    text-align: center;
+    font-size: 1.1rem;
+    width: 70%;
+}
+/* novo categoria fim */
 
 
 /* cards portifolio */
@@ -36,57 +73,73 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
     max-width: 1100px;
     margin: 3vw auto 0 auto;
 }
 
 .item-portifolio{
-    max-width: 300px;
     width: 30%;
     margin: 30px 15px;
     -webkit-box-shadow: -1px -1px 14px 0px rgba(0,0,0,0.75);
     box-shadow: -1px -1px 14px 0px rgba(0,0,0,0.75);
+    height: 60vh;
+    max-height: 700px;
 }
 
 .img-portifolio img{
     width: 100%;
+    transition: 1s;
+    height: 100%;
+    -moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 .img-portifolio{
     width: 100%;
+    height: 70%;
     position: relative;
+    overflow: hidden;
+
 }
 
-.legenda-portifolio{
-    width: 100%;
-    position: absolute;
-    padding: 5px 0;
-    text-align: center;
-    top: 0;
-    background-color: rgba(0,0,0,.6);
+.item-portifolio:hover  .img-portifolio img{
+    -moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+    transition-duration: 1s;
 }
 
-.text-legenda{
-    color: var(--cor-2);
+.title-item-portifolio{
+    font-size: 1.3rem;
+    color: var(--cor-1);
+    margin: 20px auto;
+    font-family: Rubik-Regular;
+}
+
+.item-portifolio:hover .title-item-portifolio{
+    font-size: 1.3rem;
+    color: var(--cor-1);
+    margin: 20px auto;
+    font-family: Rubik-bold;
 }
 
 .categorias{
     position: absolute;
-    bottom: -3%;
-    width: 50%;
+    bottom: 0%;
+    width: 70%;
     min-width: 100px;
     padding: 5px;
     background-color: var(--cor-1);
 }
 
 .portifolio-info{
-    margin: 20px 0;
+    margin: 10px auto;
+    text-align: center;
 }
 
-.info-text{
-    margin: 20px 0;
-}
+
 
 
 /* cads buscas avançadas */
@@ -178,3 +231,4 @@ input[type=radio]{
     margin: 0 5px;
     border: 3px solid var(--cor-1);
 }
+
