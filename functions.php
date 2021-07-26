@@ -212,6 +212,42 @@ add_submenu_page($parent_slug,$page_title,$menu_title,$capability,$menu_slug);
 
 	add_action( 'customize_register', 'my_customize_register2',11 );
 
+// adciona um novo campo na criação de curso chamado INformação Complementares para Tab Ementa
+add_filter( 'rwmb_meta_boxes', 'course_metabox_register_meta_boxes' );
+
+function course_metabox_register_meta_boxes( $meta_boxes ) {
+    $prefix = 'course_metabox_';
+
+    $meta_boxes[] = [
+        'title'   => esc_html__( 'Informações complementares', 'online-generator' ),
+		'post_types'    =>    'lp_course',
+        'id'      => 'ementa',
+        'context' => 'normal',
+        'fields'  => [
+            [
+                'type' => 'wysiwyg',
+                'name' => esc_html__( 'Tab Ementa', 'online-generator' ),
+                'id'   => $prefix . 'lp_course_program',
+                'desc' => esc_html__( 'Descrição da ementa.', 'online-generator' ),
+			],
+			[
+                'type' => 'wysiwyg',
+                'name' => esc_html__( 'Instrutores do curso', 'online-generator' ),
+                'id'   => $prefix . 'lp_course_instructor',
+                'desc' => esc_html__( 'Descrição da dos instrutores.', 'online-generator' ),
+            ],
+			[
+                'type' => 'wysiwyg',
+                'name' => esc_html__( 'Cronograma', 'online-generator' ),
+                'id'   => $prefix . 'lp_course_cronograma',
+                'desc' => esc_html__( 'Descrição do cronograma.', 'online-generator' ),
+            ]
+        ],
+		
+    ];
+
+    return $meta_boxes;
+}
 
 
 
