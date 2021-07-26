@@ -14,7 +14,12 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/section.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/midia.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/toggle.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/learnpress.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/font-awesome.min.css" />
+    
     <?php wp_head(); ?>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/mixitup.js?ver=3.2.1"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
 </head>
+<?php flush(); ?>
 <body>
-
