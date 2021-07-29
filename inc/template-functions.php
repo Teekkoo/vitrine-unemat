@@ -78,17 +78,7 @@ function vitrine_register_required_plugins() {
 	tgmpa( $plugins, $config );
 }
 
-function vitrine_ocdi_import_files() {
-	return array(
-		array(
-			'import_file_name'             => 'Education LMS Demo Import',
-			'local_import_file'            => trailingslashit( get_template_directory() ) . 'assets/dummy-data/demo-content.xml',
-			'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'assets/dummy-data/widgets.wie',
-			'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'assets/dummy-data/customizer.dat'
-		)
-	);
-}
-add_filter( 'pt-ocdi/import_files', 'vitrine_ocdi_import_files' );
+
 
 function vitrine_course_category(){
 	$categories = array( 'ALL');
@@ -133,15 +123,3 @@ function vitrine_wc_header_add_to_cart_fragment( $fragments ) {
 }
 
 
-// ao invez de redirecionar para o carrinho, vai direto para finalizar compra (checkout)
-add_filter ('add_to_cart_redirect', 'redirect_to_checkout');
-function redirect_to_checkout() {
-	return WC()->cart->get_checkout_url();
-}
-
-add_filter ('woocommerce_product_single_add_to_cart_text', 'lw_cart_btn_text'); 
-add_filter ('woocommerce_product_add_to_cart_text', 'lw_cart_btn_text');
-// Alterando o texto Adicionar ao carrinho para comprar agora! 
-function lw_cart_btn_text () { 
-return __ ('Compre agora!', 'woocommerce'); 
-}
