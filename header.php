@@ -18,8 +18,10 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/font-awesome.min.css" />
     
     <?php wp_head(); ?>
-    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/mixitup.js?ver=3.2.1"></script>
-    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
+    <?php if( learn_press_is_course_tag() || is_archive() || learn_press_is_course_category()): ?>
+        <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/mixitup.js?ver=3.2.1"></script>
+        <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
+    <?php endif ?>
 </head>
 <?php flush(); ?>
 <body>
