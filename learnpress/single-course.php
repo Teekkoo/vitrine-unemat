@@ -181,10 +181,10 @@ if ($terms = wp_get_object_terms( $post->ID, 'course_tag' )) {
                                             <?php endif ?>
                                         </div>
                                         <?php 
-                                                $link_membership = get_post_meta($post->ID, 'url_buymembership', true);
-                                                echo '<div class="lp-course-buttons">
-                                                <div id="learn-press-pmpro-notice" class="learn-press-pmpro-buy-membership purchase-course">
-                                                <a class="button purchase-button" href="'.$link_membership.'">Matricular</a></div></div>'; ?>
+                                                // $link_membership = get_post_meta($post->ID, 'url_buymembership', true);
+                                                // echo '<div class="lp-course-buttons">
+                                                // <div id="learn-press-pmpro-notice" class="learn-press-pmpro-buy-membership purchase-course">
+                                                // <a class="button purchase-button" href="'.$link_membership.'">Matricular</a></div></div>'; ?>
                                                 <?php learn_press_course_purchase_button(); ?>
 
                                     </div>
