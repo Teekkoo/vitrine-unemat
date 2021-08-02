@@ -6,7 +6,7 @@
 ?>
 <?php 
     get_header();
-    include('menu.php');
+    get_template_part( 'template_parts/menu');
  
     if(have_posts()): while(have_posts()): the_post();
 ?>

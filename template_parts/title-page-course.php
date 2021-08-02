@@ -36,6 +36,8 @@
   <?php// endif ?> -->
 
   <?php 
+   include('menu.php');
+
  if ( class_exists( 'WooCommerce' ) || function_exists( 'is_shop' )):  
     $obj = get_queried_object();
     $cat_slug = $obj->slug;
@@ -53,10 +55,8 @@
           }
           
         ?>
-        <div class="background"></div>
-        <img src="<?php bloginfo("template_url"); ?>/img/banner-cateogry.svg" alt="Pesquisas" class= "categoria-banner"> 
-        
+        <img class="bg-header-wave-2 img-bg" src="<?php bloginfo('template_url'); ?>/img/background-header-end-line.svg" alt="">
+    <div></div>
     </div>
-    <div class="crop-nine"><div class="skew-nine"></div></div>
 
     <?php endif ?>

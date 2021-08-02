@@ -5,7 +5,7 @@ Template Post Type: propriedade
 
 <?php
 get_header();
-include('menu.php');
+get_template_part( 'template_parts/menu');
 ?>
 
 <?php $t="oi"; $c=""; $cat="";?>

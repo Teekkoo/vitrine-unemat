@@ -1,8 +1,6 @@
+
 <div class="container-fluid ">
     <div class="container">
-        <div class="title-areas-course">
-            <h1>&nbsp</h1>
-        </div>
         <div class="select-areas">
             <div class="box-areas">
                 <h2 class="title-select-area" >Áreas de conhecimento</h2>

@@ -2,7 +2,7 @@
 
 <?php get_header(); ?>
 
-<?php include('menu.php'); ?>
+<?php get_template_part( 'template_parts/menu'); ?>
 <section class="section-info container d-flex">
 
     <div class="menu-info">

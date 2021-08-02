@@ -80,19 +80,19 @@ img.categoria-banner {
 .title-category-page{
     font-size: 4.5rem;
     font-family: Rubik-Bold;
-    color: #ffffff;
+    color: var(--cor-1);
 }
 
 .title-course-page{
     font-size: 4rem;
     font-family: Rubik-Bold;
-    color: #ffffff;
+    color: var(--cor-1);
 }
 
 .description-category-page{
     font-size: 2rem;
     font-family: Rubik-Regular;
-    color: #ffffff;
+    color: var(--cor-1);
 }
 
  /*--------------------------------------------------------------
@@ -908,7 +908,7 @@ single course page
         .title-course-page {
             font-size: 3rem;
             font-family: Rubik-Bold;
-            color: #ffffff;
+            color: var(--cor-1);
         }
         .course-meta-single{
             overflow:auto;
@@ -994,7 +994,7 @@ single course page
     .description-category-page{
         font-size: 1.5rem;
         font-family: Rubik-Regular;
-        color: #ffffff;
+        color: var(--cor-1);
     }
 
     /*--------------------------------------------------------------

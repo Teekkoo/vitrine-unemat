@@ -6,7 +6,6 @@
 defined( 'ABSPATH' ) || exit();
 
 get_header();
-
 global $post;
 ?>
 	<?php get_template_part( 'template_parts/title-page-course');?>
