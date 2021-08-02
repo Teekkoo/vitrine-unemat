@@ -56,7 +56,6 @@
           
         ?>
         <img class="bg-header-wave-2 img-bg" src="<?php bloginfo('template_url'); ?>/img/background-header-end-line.svg" alt="">
-    <div></div>
     </div>
 
     <?php endif ?>
