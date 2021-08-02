@@ -62,7 +62,7 @@ if ($terms = wp_get_object_terms( $post->ID, 'course_tag' )) {
 ?>
 <?php get_template_part( 'template_parts/title-page-course');?>
 
-<div class="container-fluid description-course-bar">
+<!-- <div class="container-fluid description-course-bar">
     <div class="container">
         <div class="row description-course-bar-sub">
             <div class="col-lg-12 pull-right flex description-course-bar-button">  
@@ -71,13 +71,13 @@ if ($terms = wp_get_object_terms( $post->ID, 'course_tag' )) {
                 // echo '<div class="lp-course-buttons">
                 // <div id="learn-press-pmpro-notice" class="learn-press-pmpro-buy-membership purchase-course">
                 // <a class="button purchase-button" href="'.$link_membership.'">Matricular</a></div></div>';  ?>
-                <?php learn_press_course_purchase_button(); ?>
+                <?php// learn_press_course_purchase_button(); ?>
             </div>
             </div>
         </div>
     </div>
-</div>
-<div class="crop-second"><div class="skew-second"></div></div>
+</div> -->
+<!-- <div class="crop-second"><div class="skew-second"></div></div> -->
 	<div id="primary" class="content-area single-course-page">
 		<div class="container">
 			<div class="row">
